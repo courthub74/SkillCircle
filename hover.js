@@ -21,6 +21,28 @@ circle_one.addEventListener('pointerdown', () => {
     setTimeout(circle_back, 3000);
 });
 
+circle_two.addEventListener('pointerdown', () => {
+    circle_two.classList.add('hover');
+    line_two.classList.add('hover');
+    // Function with a timer to change it back
+    function circle_back_two() {
+        circle_two.classList.remove('hover');
+        line_two.classList.remove('hover');
+    }
+    setTimeout(circle_back_two, 3000);
+});
+
+circle_three.addEventListener('pointerdown', () => {
+    circle_three.classList.add('hover');
+    line_three.classList.add('hover');
+    // Function with a timer to change it back
+    function circle_back_three() {
+        circle_three.classList.remove('hover');
+        line_three.classList.remove('hover');
+    }
+    setTimeout(circle_back_three, 3000);
+});
+
 // For Desktops
 
 // For any screen larger than the average tablet
