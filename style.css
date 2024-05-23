@@ -1,0 +1,105 @@
+@media screen and (orientation: portrait) {
+  * body {
+    background-color: rgb(5, 53, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100vh;
+  }
+  * body .skill_circle {
+    background-color: rgb(4, 4, 31);
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+  }
+  * body .skill_circle .circle_stuff {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: -1em;
+  }
+  * body .skill_circle .circle_stuff hr {
+    border: 2px solid #00C6C3;
+    border: 2px solid #00313E;
+    width: 100%;
+  }
+  * body .skill_circle .circle_stuff hr.hover {
+    border: 2px solid #146166;
+  }
+  * body .skill_circle .circle_stuff .skill_contents img {
+    width: 7vw;
+    height: 7vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  * body .skill_circle .circle_stuff .skill_contents p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+  }
+  * body .skill_circle.hover {
+    border: 3px solid #146166;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1200px) {
+  * body {
+    background-color: rgb(5, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    height: 100vh;
+  }
+  * body .skill_circle {
+    background-color: rgb(4, 4, 31);
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+  }
+  * body .skill_circle .circle_stuff {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: -1em;
+  }
+  * body .skill_circle .circle_stuff hr {
+    border: 2px solid #00C6C3;
+    border: 2px solid #00313E;
+    width: 100%;
+  }
+  * body .skill_circle .circle_stuff hr.hover {
+    border: 2px solid #146166;
+  }
+  * body .skill_circle .circle_stuff .skill_contents img {
+    width: 7vw;
+    height: 7vw;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body .skill_circle .circle_stuff .skill_contents p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+  }
+  * body .skill_circle.hover {
+    border: 3px solid #146166;
+    box-sizing: border-box;
+  }
+}/*# sourceMappingURL=style.css.map */
