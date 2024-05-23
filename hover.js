@@ -1,4 +1,5 @@
-// Query the back circle and hr
+// Query the back circle and hr 
+    // and the logo and the words
 
 let circle_one = document.getElementById('circle_one');
 let circle_two = document.getElementById('circle_two');
@@ -8,15 +9,23 @@ let line_one = document.getElementById('line_one');
 let line_two = document.getElementById('line_two');
 let line_three = document.getElementById('line_three');
 
+let python_logo = document.getElementById('python');
+
+let python_description = document.getElementById('python_description');
+
 // For Mobiles
 
 circle_one.addEventListener('pointerdown', () => {
     circle_one.classList.add('hover');
     line_one.classList.add('hover');
+    python_logo.classList.add('hover');
+    python_description.classList.add('hover');
     // Function with a timer to change it back
     function circle_back() {
         circle_one.classList.remove('hover');
         line_one.classList.remove('hover');
+        python_logo.classList.remove('hover');
+        python_description.classList.remove('hover');
     }
     setTimeout(circle_back, 3000);
 });

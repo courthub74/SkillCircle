@@ -45,17 +45,33 @@ $skillsteal: #146166;
                         border: 2px solid $skillsteal;
                     }
                     .skill_contents {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         img {
                             width: 7vw;
                             height: 7vw;
-                            width: 15vw;
-                            height: 15vw;
+                            width: 14vw;
+                            height: 14vw;
                         }
-                        p {
+                        // Logos are position absolute
+                        #python {
+                            position: absolute;
+                        }
+                        #python.hover {
+                            opacity: 0;
+                            transition: .5s all ease-in;
+                        }
+                        #python_description {
+                            opacity: 0;
                             color: white;
                             font-family: 'Courier New', Courier, monospace;
                             font-size: large;
                             font-weight: bold;
+                        }
+                        #python_description.hover {
+                            opacity: 1;
+                            // transition: .3s all ease-in;
                         }
                     }
                 }

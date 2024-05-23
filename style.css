@@ -34,17 +34,33 @@
   * body .skill_circle .circle_stuff hr.hover {
     border: 2px solid #146166;
   }
+  * body .skill_circle .circle_stuff .skill_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   * body .skill_circle .circle_stuff .skill_contents img {
     width: 7vw;
     height: 7vw;
-    width: 15vw;
-    height: 15vw;
+    width: 14vw;
+    height: 14vw;
   }
-  * body .skill_circle .circle_stuff .skill_contents p {
+  * body .skill_circle .circle_stuff .skill_contents #python {
+    position: absolute;
+  }
+  * body .skill_circle .circle_stuff .skill_contents #python.hover {
+    opacity: 0;
+    transition: 0.5s all ease-in;
+  }
+  * body .skill_circle .circle_stuff .skill_contents #python_description {
+    opacity: 0;
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: large;
     font-weight: bold;
+  }
+  * body .skill_circle .circle_stuff .skill_contents #python_description.hover {
+    opacity: 1;
   }
   * body .skill_circle.hover {
     border: 3px solid #146166;
