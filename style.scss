@@ -149,15 +149,15 @@ $skillsteal: #146166;
                         }
                         #python.hover {
                             opacity: 0;
-                            transition: .5s all ease-in;
+                            transition: .3s all ease-in;
                         }
                         #python_two.hover {
                             opacity: 0;
-                            transition: .5s all ease-in;
+                            transition: .3s all ease-in;
                         }
                         #python_three.hover {
                             opacity: 0;
-                            transition: .5s all ease-in;
+                            transition: .3s all ease-in;
                         }
                         #python_description {
                             opacity: 0;
@@ -166,9 +166,11 @@ $skillsteal: #146166;
                             font-size: 2rem;
                             font-weight: bold;
                             margin: 2em 0 0 0;
+                            
                         }
                         #python_description.hover {
                             opacity: 1;
+                            transition: .5s all ease-in;
                             // transition: .3s all ease-in;
                         }
                         #python_description_two {

@@ -128,15 +128,15 @@
   }
   * body .skill_circle .circle_stuff .skill_contents #python.hover {
     opacity: 0;
-    transition: 0.5s all ease-in;
+    transition: 0.3s all ease-in;
   }
   * body .skill_circle .circle_stuff .skill_contents #python_two.hover {
     opacity: 0;
-    transition: 0.5s all ease-in;
+    transition: 0.3s all ease-in;
   }
   * body .skill_circle .circle_stuff .skill_contents #python_three.hover {
     opacity: 0;
-    transition: 0.5s all ease-in;
+    transition: 0.3s all ease-in;
   }
   * body .skill_circle .circle_stuff .skill_contents #python_description {
     opacity: 0;
@@ -148,6 +148,7 @@
   }
   * body .skill_circle .circle_stuff .skill_contents #python_description.hover {
     opacity: 1;
+    transition: 0.5s all ease-in;
   }
   * body .skill_circle .circle_stuff .skill_contents #python_description_two {
     opacity: 0;
