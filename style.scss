@@ -105,33 +105,95 @@ $skillsteal: #146166;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                gap: 1em;
+                // position: absolute;
+                // gap: 1em;
                 cursor: pointer;
                 .circle_stuff {
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
                     flex-direction: column;
-                    gap: 1em;
-                    margin-top: -1em;
+                    // gap: 4em;
+                    margin-top: -5em;
                     hr {
                         border: 2px solid $jobdescription;
                         border: 2px solid $nextgreen;
                         width: 100%;
+                        width: 8em;
                     }
                     hr.hover {
                         border: 2px solid $skillsteal;
                     }
                     .skill_contents {
+                        display: flex;
+                        // flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                         img {
                             width: 7vw;
                             height: 7vw;
                             width: 8vw;
                             height: 8vw;
                         }
-                        p {
+                        #python {
+                            position: absolute;
+                            margin: 4em 0 0 0;
+                        }
+                        #python_two {
+                            position: absolute;
+                            margin: 4em 0 0 0;
+                        }
+                        #python_three {
+                            position: absolute;
+                            margin: 4em 0 0 0;
+                        }
+                        #python.hover {
+                            opacity: 0;
+                            transition: .5s all ease-in;
+                        }
+                        #python_two.hover {
+                            opacity: 0;
+                            transition: .5s all ease-in;
+                        }
+                        #python_three.hover {
+                            opacity: 0;
+                            transition: .5s all ease-in;
+                        }
+                        #python_description {
+                            opacity: 0;
                             color: white;
                             font-family: 'Courier New', Courier, monospace;
-                            font-size: large;
+                            font-size: 2rem;
                             font-weight: bold;
+                            margin: 2em 0 0 0;
+                        }
+                        #python_description.hover {
+                            opacity: 1;
+                            // transition: .3s all ease-in;
+                        }
+                        #python_description_two {
+                            opacity: 0;
+                            color: white;
+                            font-family: 'Courier New', Courier, monospace;
+                            font-size: 2rem;
+                            font-weight: bold;
+                            margin: 2em 0 0 0;
+                        }
+                        #python_description_two.hover {
+                            opacity: 1;
+                            // transition: .3s all ease-in;
+                        }
+                        #python_description_three {
+                            opacity: 0;
+                            color: white;
+                            font-family: 'Courier New', Courier, monospace;
+                            font-size: 2rem;
+                            font-weight: bold;
+                            margin: 2em 0 0 0;
+                        }
+                        #python_description_three.hover {
+                            opacity: 1;
+                            // transition: .3s all ease-in;
                         }
                     }
                 }
